@@ -5,6 +5,7 @@
     <StackLayout>
         <!-- Place new controls here -->
         <Label Text="Vamos testar o app center!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-        <Button Text="Evento" Clicked="Handle_Clicked" />
+        <Button Text="Evento" Clicked="Evento_Clicked" />
+        <Button Text="Erro" Clicked="Erro_Clicked" />
     </StackLayout>
 </ContentPage>

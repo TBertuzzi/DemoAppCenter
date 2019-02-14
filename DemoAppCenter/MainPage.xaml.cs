@@ -31,7 +31,7 @@ namespace DemoAppCenter
         public void Erro_Clicked(object sender, EventArgs e)
         {
 
-            Crashes.GenerateTestCrash();
+          //  Crashes.GenerateTestCrash();
 
             try
             {
