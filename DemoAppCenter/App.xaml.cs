@@ -16,7 +16,7 @@ namespace DemoAppCenter
         {
             InitializeComponent();
 
-            AppCenter.Start("android=35a65bbb-c439-4e0e-b34f-f98a4bb81376;" +
+            AppCenter.Start("android=f7d2c931-8b92-4934-9887-a96fc7014db5;" +
                   "uwp={Your UWP App secret here};" +
                   "ios={Your iOS App secret here}",
                   typeof(Analytics), typeof(Crashes),typeof(Distribute),typeof(Push));

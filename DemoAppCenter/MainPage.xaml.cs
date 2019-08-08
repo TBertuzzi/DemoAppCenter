@@ -31,8 +31,6 @@ namespace DemoAppCenter
         public void Erro_Clicked(object sender, EventArgs e)
         {
 
-          //  Crashes.GenerateTestCrash();
-
             try
             {
                 List<string> teste = null;
@@ -47,5 +45,12 @@ namespace DemoAppCenter
                 Crashes.TrackError(ex, properties);
             }
         }
+
+        public void Crash_Clicked(object sender, EventArgs e)
+        {
+
+              Crashes.GenerateTestCrash();
+        }
+
     }
 }

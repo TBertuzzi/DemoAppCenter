@@ -7,5 +7,6 @@
         <Label Text="Vamos testar o app center!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
         <Button Text="Evento" Clicked="Evento_Clicked" />
         <Button Text="Erro" Clicked="Erro_Clicked" />
+        <Button Text="Crash" Clicked="Crash_Clicked" />
     </StackLayout>
 </ContentPage>
