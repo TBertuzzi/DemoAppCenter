@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:DemoAppCenter" x:Class="DemoAppCenter.MainPage">
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Vamos testar o app center!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        <Label Text="Vamos testar o app center!" />
         <Button Text="Evento" Clicked="Evento_Clicked" />
         <Button Text="Erro" Clicked="Erro_Clicked" />
         <Button Text="Crash" Clicked="Crash_Clicked" />
